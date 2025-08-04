@@ -112,6 +112,9 @@ if submitted:
         else:
             st.error(f"❌ Failed: {response.text}")
 
+
+    
+
     except Exception as e:
 
         st.error(f"🚨 Error: {e}")
